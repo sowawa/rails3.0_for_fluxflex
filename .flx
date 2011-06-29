@@ -14,9 +14,11 @@ config/database.yml FLX_DB_USER DB_USER
 config/database.yml FLX_DB_PASS DB_PASSWORD
 public/dispatch.fcgi USER_NAME PROJECT_NAME
 
+[setup]
+bash fluxflex_setup.sh
+bash fluxflex_rake.sh
+
 [deploy]
 bash fluxflex_deploy.sh
 
-[setup]
-bash fluxflex_setup.sh
 
