@@ -1,0 +1,14 @@
+<section>
+  <h1>New Article</h1>
+  <%= form_for @article do |f| %>
+    <div class="field">
+      <%= f.text_field :title %>
+    </div>
+    <div class="field">
+      <%= f.text_area :body %>
+    </div>
+    <div class="field">
+      <%= f.submit %>
+    </div>
+  <% end %>
+</section>
