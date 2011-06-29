@@ -6,5 +6,6 @@ gem install rails --no-ri --no-rdoc
 gem install mysql --no-ri --no-rdoc
 gem install bundler --no-ri --no-rdoc
 
-bundle install --without development
+bundle install
 
+rake db:migrate:reset RAILS_ENV=production

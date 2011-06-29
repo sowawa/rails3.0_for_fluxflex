@@ -16,7 +16,3 @@ public/dispatch.fcgi USER_NAME PROJECT_NAME
 
 [deploy]
 bash fluxflex_deploy.sh
-
-[setup]
-bash fluxflex_setup.sh
-
