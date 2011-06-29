@@ -8,3 +8,4 @@ gem install bundler --no-ri --no-rdoc
 
 bundle install
 
+rake db:migrate:reset RAILS_ENV=production
