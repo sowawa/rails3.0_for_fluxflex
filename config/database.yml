@@ -1,32 +1,16 @@
-#development:
-#  adapter: sqlite3
-#  database: db/development.sqlite3
-#  pool: 5
-#  timeout: 5000
-#
-#test:
-#  adapter: sqlite3
-#  database: db/test.sqlite3
-#  pool: 5
-#  timeout: 5000
-
-production:
-  adapter: mysql
-  database: FLX_DB_NAME
-  host: FLX_DB_HOST
-  username: FLX_DB_USER
-  password: FLX_DB_PASS
-  encoding: utf8
-
 development:
-  adapter: mysql
-  database: FLX_DB_NAME
-  host: FLX_DB_HOST
-  username: FLX_DB_USER
-  password: FLX_DB_PASS
-  encoding: utf8
+  adapter: sqlite3
+  database: db/development.sqlite3
+  pool: 5
+  timeout: 5000
 
 test:
+  adapter: sqlite3
+  database: db/test.sqlite3
+  pool: 5
+  timeout: 5000
+
+production:
   adapter: mysql
   database: FLX_DB_NAME
   host: FLX_DB_HOST
